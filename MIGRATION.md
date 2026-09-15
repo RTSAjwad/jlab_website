@@ -151,6 +151,28 @@ links are manually prefixed with `/jlab_website/` in the source. When changing
 `base` (e.g. switching to a custom domain), those manual prefixes must be
 updated too.
 
+##### Switching to a custom domain (removing `/jlab_website/`)
+
+When the site moves off the GitHub project URL to a custom domain (the original
+`japanese-like-a-breeze.com`), the `/jlab_website/` segment is no longer needed.
+Checklist:
+
+1. Add a `public/CNAME` file containing the bare domain.
+2. In `astro.config.mjs`: remove `base` and set `site` to `https://<domain>`.
+3. Remove the manual `/jlab_website/` prefix from:
+   - hero action links in `src/content/docs/index.mdx`
+   - in-content Markdown links in `src/content/docs/guides/*.md`,
+     `decks/*.md`, `addon/*.md`, `reference/*.md`, and `blog/*.md`
+4. Sidebar `link` values need **no** change (Starlight auto-prefixes them).
+5. Configure DNS + the GitHub Pages custom-domain setting (see README).
+
+The manual prefixes can be located with:
+
+```sh
+grep -rn ']\?(/jlab_website/' src/content/docs/ src/ || \
+  grep -rnE 'link: /jlab_website/' src/content/docs/index.mdx
+```
+
 ---
 
 ## 4. Placeholder / unimplemented features

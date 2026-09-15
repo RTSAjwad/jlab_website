@@ -41,6 +41,33 @@ In the repository settings, set **Pages → Source → GitHub Actions**.
 
 The site is served at `https://RTSAjwad.github.io/jlab_website/`.
 
+### Switching to a custom domain
+
+The `/jlab_website/` path segment comes from GitHub Pages hosting the repo as a
+**project site** (`https://<username>.github.io/<repo>/`). To serve the site at a
+custom domain (e.g. the original `japanese-like-a-breeze.com`), that segment must
+be removed. Steps:
+
+1. **Configure DNS** at your domain provider: add a `CNAME` record pointing
+   `<your-domain>` to `RTSAjwad.github.io` (or an A/AAAA record to GitHub's
+   Pages IPs).
+2. **Add a `public/CNAME` file** containing the bare domain
+   (e.g. `japanese-like-a-breeze.com`).
+3. **Update `astro.config.mjs`:**
+   - remove `base` (or set it to `/`)
+   - set `site` to `https://<your-domain>`
+4. **Remove the manual `/jlab_website/` prefixes** from hero action links
+   (`src/content/docs/index.mdx`) and in-content Markdown links (see
+   `MIGRATION.md` for the full list). Sidebar links are auto-prefixed and need
+   no change.
+5. In **GitHub → Settings → Pages → Custom domain**, enter the domain and
+   enable **Enforce HTTPS**.
+6. Push; the workflow redeploys to the custom domain.
+
+See the Astro guide's
+["Change your GitHub URL to a custom domain"](https://docs.astro.build/en/guides/deploy/github/#change-your-github-url-to-a-custom-domain)
+section for the canonical steps.
+
 ## Project structure
 
 ```
