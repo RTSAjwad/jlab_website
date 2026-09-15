@@ -7,9 +7,11 @@ import starlightBlog from 'starlight-blog';
 
 // https://astro.build/config
 export default defineConfig({
-	// The production domain. Overridable via the `SITE_URL` environment
-	// variable (export SITE_URL=... before `astro dev` / `astro build`).
-	site: process.env.SITE_URL ?? 'https://www.japanese-like-a-breeze.com',
+	// The GitHub Pages project URL. For local development, the Nix dev shell
+	// exports SITE_URL=http://localhost:4321 so RSS/sitemap/canonical links
+	// point at the dev server.
+	site: process.env.SITE_URL ?? 'https://RTSAjwad.github.io',
+	base: '/jlab_website',
 	integrations: [
 		starlight({
 			title: 'Japanese Like a Breeze',

@@ -21,10 +21,10 @@ pnpm dev
 ### Site URL
 
 The Astro `site` option (which drives the RSS feed, sitemap, canonical URLs and
-Open Graph tags) defaults to the production domain
-`https://www.japanese-like-a-breeze.com`. During local development, the flake
-dev shell exports `SITE_URL=http://localhost:4321` so generated links point at
-the dev server instead.
+Open Graph tags) defaults to the GitHub project URL
+`https://RTSAjwad.github.io`, and `base` is set to `/jlab_website`. During local
+development, the flake dev shell exports `SITE_URL=http://localhost:4321` so
+generated links point at the dev server instead.
 
 To override it (e.g. for a preview deploy), set `SITE_URL` before running the
 dev/preview command:
@@ -32,6 +32,14 @@ dev/preview command:
 ```sh
 SITE_URL=https://staging.example.com pnpm dev
 ```
+
+## Deployment
+
+The site deploys to GitHub Pages via GitHub Actions
+(`.github/workflows/deploy.yml`). Pushing to `main` triggers a build and deploy.
+In the repository settings, set **Pages → Source → GitHub Actions**.
+
+The site is served at `https://RTSAjwad.github.io/jlab_website/`.
 
 ## Project structure
 

@@ -130,13 +130,17 @@ Only the social channels that actually exist on the original site are exposed:
 > original site has no GitHub presence and no YouTube *channel* link (only
 > individual video links inside content).
 
-### Site URL / RSS
+### Site URL / `base` / RSS
 
-`site` defaults to the production domain
-`https://www.japanese-like-a-breeze.com` (the migration target — same domain).
-To avoid emitting links to the live old site during local development, the Nix
-dev shell exports `SITE_URL=http://localhost:4321`, and the config reads
-`process.env.SITE_URL ?? <production>`. See `README.md` and `flake.nix`.
+- `base` is set to `/jlab_website` (the GitHub project repository), so all
+  absolute paths are prefixed accordingly.
+- `site` defaults to the GitHub project URL `https://RTSAjwad.github.io` (the
+  production target). During local development, the Nix dev shell exports
+  `SITE_URL=http://localhost:4321`, and the config reads
+  `process.env.SITE_URL ?? <production>`. See `README.md` and `flake.nix`.
+- Deployment is handled by `.github/workflows/deploy.yml` (the official
+  `withastro/action` → `actions/deploy-pages`). The GitHub repository must be
+  set to use **GitHub Actions** as the Pages source.
 
 ---
 
