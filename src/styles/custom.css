@@ -1,0 +1,7 @@
+/* Custom styles for JLab (Japanese Like a Breeze) */
+
+/* Landing page hero styling */
+:root {
+	--sl-hue-accent: 210;
+	--sl-hue-blue: 210;
+}

@@ -1,0 +1,58 @@
+---
+// Contact form placeholder.
+// The form backend is a future feature; until it is wired up, the form is
+// rendered in a disabled state with a clear message and a mailto fallback.
+const email = 'japaneselikeabreeze@gmail.com';
+---
+
+<form class="contact-form" onsubmit="return false;">
+	<div class="field">
+		<label for="contact-name">Your Name (required)</label>
+		<input id="contact-name" name="name" type="text" required disabled />
+	</div>
+	<div class="field">
+		<label for="contact-email">Your Email (required)</label>
+		<input id="contact-email" name="email" type="email" required disabled />
+	</div>
+	<div class="field">
+		<label for="contact-subject">Subject</label>
+		<input id="contact-subject" name="subject" type="text" disabled />
+	</div>
+	<div class="field">
+		<label for="contact-message">Your Message</label>
+		<textarea id="contact-message" name="message" rows="6" disabled></textarea>
+	</div>
+	<button type="submit" class="sl-link-button primary" disabled>Send message</button>
+</form>
+
+<style>
+	.contact-form {
+		display: grid;
+		gap: 1rem;
+		max-width: 36rem;
+		margin-top: 1rem;
+	}
+	.field {
+		display: grid;
+		gap: 0.375rem;
+	}
+	.field label {
+		font-size: var(--sl-text-sm);
+		font-weight: 500;
+	}
+	.field input,
+	.field textarea {
+		width: 100%;
+		padding: 0.5rem 0.75rem;
+		background: var(--sl-color-gray-6);
+		border: 1px solid var(--sl-color-gray-5);
+		border-radius: 0.375rem;
+		color: var(--sl-color-text);
+		font: inherit;
+	}
+	.field input:disabled,
+	.field textarea:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+</style>
