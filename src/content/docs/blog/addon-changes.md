@@ -10,4 +10,4 @@ There are a few features in the Jlab addon that used to break when Anki is
 updated. With version 2.1.55, things started breaking again, so some operations
 were moved to **Japanese like a breeze → Tools** instead of running automatically.
 
-Read the full details on the [addon changes page](/addon/changes/).
+Read the full details on the [addon changes page](/jlab_website/addon/changes/).

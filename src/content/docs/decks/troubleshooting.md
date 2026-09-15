@@ -69,7 +69,7 @@ it untouched. To fix this:
 3. Click a card and hit `Ctrl+A` to select all of them.
 4. Right-click → Change deck.
 
-If you need help, [contact Joe](/contact/).
+If you need help, [contact Joe](/jlab_website/contact/).
 
 ## WTF! The roumaji do not go away!!1
 
@@ -91,4 +91,4 @@ play audio automatically".
 
 Only the core features of the addon work on Linux/Mac (dictionary, card
 management, etc.). The deck converter that converts existing decks to the Jlab
-format is a Windows executable. See [this page](/addon/linux-mac/) for details.
+format is a Windows executable. See [this page](/jlab_website/addon/linux-mac/) for details.

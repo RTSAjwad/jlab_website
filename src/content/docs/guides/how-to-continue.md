@@ -9,7 +9,7 @@ Jlab offers two approaches to follow after you finish the beginner's course.
 
 The beginner's course prepares you for mining sentences from anime and dorama on
 your own. There are various options for this, but if you use the Jlab Anki addon
-and [subs2srs decks](/decks/subs2srs/), this path is completely free. The
+and [subs2srs decks](/jlab_website/decks/subs2srs/), this path is completely free. The
 required decks are community-created and hosted by the project.
 
 **Advantages**: It's free, you determine both the speed and the content yourself,
@@ -21,7 +21,7 @@ to get demotivated, and the content is not fine-tuned for effortless learning.
 
 ## Option 2: Use the Jlab intermediate decks
 
-These are [paid decks](/decks/) available directly on
+These are [paid decks](/jlab_website/decks/) available directly on
 [Patreon](https://www.patreon.com/jlabjapanese). They continue in a
 similar fashion as the beginner's course, with two differences: First, they are
 built around video recommendations and help you quickly understand

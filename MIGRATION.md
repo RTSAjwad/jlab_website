@@ -132,7 +132,7 @@ Only the social channels that actually exist on the original site are exposed:
 
 ### Site URL / `base` / RSS
 
-- `base` is set to `/jlab_website` (the GitHub project repository), so all
+- `base` is set to `/jlab_website/` (the GitHub project repository), so all
   absolute paths are prefixed accordingly.
 - `site` defaults to the GitHub project URL `https://RTSAjwad.github.io` (the
   production target). During local development, the Nix dev shell exports
@@ -141,6 +141,15 @@ Only the social channels that actually exist on the original site are exposed:
 - Deployment is handled by `.github/workflows/deploy.yml` (the official
   `withastro/action` → `actions/deploy-pages`). The GitHub repository must be
   set to use **GitHub Actions** as the Pages source.
+
+#### `base` handling gotcha
+
+Starlight auto-prefixes **sidebar links** (the `sidebar` config) with `base`,
+but does **not** auto-prefix **hero action links** (frontmatter) or
+**in-content Markdown links**. Because of this inconsistency, those two kinds of
+links are manually prefixed with `/jlab_website/` in the source. When changing
+`base` (e.g. switching to a custom domain), those manual prefixes must be
+updated too.
 
 ---
 

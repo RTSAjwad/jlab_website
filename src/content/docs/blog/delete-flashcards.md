@@ -10,4 +10,4 @@ Keeping old flashcards is a hidden trap: language learning requires adapting to
 new contexts, but Anki keeps you stuck in the same ones. Deleting cards is key.
 
 Read the full article on the
-[delete flashcards page](/reference/delete-flashcards/).
+[delete flashcards page](/jlab_website/reference/delete-flashcards/).

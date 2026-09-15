@@ -10,4 +10,4 @@ If you google for "Japanese grammar" (in latin characters) plus the grammar term
 in hiragana, the solution is usually among the first 1-5 hits.
 
 Read the full article with examples on the
-[googling Japanese grammar page](/reference/googling-grammar/).
+[googling Japanese grammar page](/jlab_website/reference/googling-grammar/).

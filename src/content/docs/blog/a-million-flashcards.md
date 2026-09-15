@@ -27,4 +27,4 @@ amount of cards per deck:
 
 The original blog has since been removed, but the Mediafire folder is still
 available. These decks are now preserved and hosted by Jlab — see the
-[subs2srs decks page](/decks/subs2srs/) for the current links.
+[subs2srs decks page](/jlab_website/decks/subs2srs/) for the current links.

@@ -10,4 +10,4 @@ Jlab offers two approaches to follow after you finish the beginner's course:
 sentence mining on your own, or the intermediate decks on Patreon.
 
 Read the full comparison on the
-[how to continue page](/guides/how-to-continue/).
+[how to continue page](/jlab_website/guides/how-to-continue/).

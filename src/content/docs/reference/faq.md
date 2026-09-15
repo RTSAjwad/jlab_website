@@ -30,7 +30,7 @@ Decent fluency in listening comprehension takes a huge effort, but it's worth it
 
 In many cases it is easy to google for the meaning of _given_ grammar. This is
 very helpful when studying with anime and often faster than asking a question
-online. See the [dedicated article](/reference/googling-grammar/).
+online. See the [dedicated article](/jlab_website/reference/googling-grammar/).
 
 ### Card image triggers your memory
 
@@ -41,7 +41,7 @@ understand the sentence in Japanese, not just recall it from these cues.
 Solutions:
 
 - Move the image to the card's back — see
-  [this article](/addon/card-customization/).
+  [this article](/jlab_website/addon/card-customization/).
 - Use the meaning for output practice (try to recall a few words or sentence
   fragments).
 
@@ -49,12 +49,12 @@ Solutions:
 
 A good experience came from casual, "sloppy" shadowing while doing listening
 cards. Dedicated output flashcards are not recommended. See
-[the article](/guides/speaking/).
+[the article](/jlab_website/guides/speaking/).
 
 ### Why should I suspend/delete flashcards?!
 
 They block your progress at some point — see
-[this article](/reference/delete-flashcards/).
+[this article](/jlab_website/reference/delete-flashcards/).
 
 ## Deck-specific questions
 
@@ -89,7 +89,7 @@ were sorted out locally. There is a list of deck names for finding a good one.
 
 Cards in Anki can be customized to a great extent — for example, move the image
 to the back or remove the latin characters on all cards at once. See
-[the introduction](/addon/card-customization/).
+[the introduction](/jlab_website/addon/card-customization/).
 
 ### Anki automatically plays my audio
 
@@ -98,7 +98,7 @@ play audio automatically".
 
 ### Create English → Japanese vocab cards
 
-Before going ahead, check out [how to practice output](/guides/speaking/). If you
+Before going ahead, check out [how to practice output](/jlab_website/guides/speaking/). If you
 still want to turn vocab cards into English → Japanese, you can exchange the
 front/back templates. If you want both Japanese → English and English → Japanese,
 add a second card type and exchange front/back templates on that type.

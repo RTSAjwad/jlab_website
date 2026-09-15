@@ -11,7 +11,7 @@ export default defineConfig({
 	// exports SITE_URL=http://localhost:4321 so RSS/sitemap/canonical links
 	// point at the dev server.
 	site: process.env.SITE_URL ?? 'https://RTSAjwad.github.io',
-	base: '/jlab_website',
+	base: '/jlab_website/',
 	integrations: [
 		starlight({
 			title: 'Japanese Like a Breeze',

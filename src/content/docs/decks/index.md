@@ -56,6 +56,6 @@ grammar topics. Get the download link on
 
 ## Anime decks
 
-For free, community-created subs2srs decks, go [here](/decks/subs2srs/). You can
+For free, community-created subs2srs decks, go [here](/jlab_website/decks/subs2srs/). You can
 use these decks for sentence mining on your own, i.e. create your own n+1 cards.
-A guide for this is [here](/guides/intermediate/).
+A guide for this is [here](/jlab_website/guides/intermediate/).

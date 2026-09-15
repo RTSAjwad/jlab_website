@@ -5,7 +5,7 @@ description: Study Japanese with movies and video recommendations using Anki and
 
 ## Super summary
 
-- Is something unclear? [Contact me](/contact/) ("?" to the right).
+- Is something unclear? [Contact me](/jlab_website/contact/) ("?" to the right).
 - We'll use Anki and movie flashcards to step through the plot of a movie in
   bite-size chunks.
 - Learning is most efficient when you focus on flashcards with easy sentences.
@@ -42,10 +42,10 @@ movie without subtitles.
    flashcards.
 2. Install the [Jlab Anki addon](https://ankiweb.net/shared/info/2110939339)
    (Anki → Tools → Addons → Get Addons, then paste the ID: `2110939339`).
-3. Get a movie flashcard deck you like [here](/decks/).
+3. Get a movie flashcard deck you like [here](/jlab_website/decks/).
 4. Import the deck into Anki and start with "listening comprehension".
 5. Select text on your flashcards to resolve unknown words.
-6. For more features, read [the addon's manual](/addon/manual/).
+6. For more features, read [the addon's manual](/jlab_website/addon/manual/).
 
 ## Concentrate on all the easy parts
 

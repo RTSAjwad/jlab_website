@@ -9,10 +9,10 @@ grammar and about 1000 words. You can download it from
 [YouTube](https://www.youtube.com/watch?v=GHFcHfvgX5c).
 
 Current version: **14**. You can also get update notifications by
-[newsletter](/newsletter/).
+[newsletter](/jlab_website/newsletter/).
 
-- [Troubleshooting guide](/decks/troubleshooting/) for import and update issues.
-- [Other decks](/decks/) created by Jlab.
+- [Troubleshooting guide](/jlab_website/decks/troubleshooting/) for import and update issues.
+- [Other decks](/jlab_website/decks/) created by Jlab.
 - [Patreon](https://www.patreon.com/jlabjapanese) for supporting the
   project — thank you!
 
@@ -51,7 +51,7 @@ Current version: **14**. You can also get update notifications by
 2. Download and import the Jlab beginner deck on your computer.
 3. All further instructions are found inside the deck.
 4. Without the addon, you need to take care of a few things yourself.
-   [Read more here](/guides/course-without-addon/).
+   [Read more here](/jlab_website/guides/course-without-addon/).
 
 ## Don't
 

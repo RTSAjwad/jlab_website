@@ -8,4 +8,4 @@ documentation is finalized.
 
 For now, key terminology is explained inline where it appears throughout the
 guides. If there's a term you think should be defined here,
-[contact Joe](/contact/).
+[contact Joe](/jlab_website/contact/).
