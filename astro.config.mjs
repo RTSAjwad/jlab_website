@@ -41,6 +41,9 @@ export default defineConfig({
 				},
 			],
 			customCss: ['./src/styles/custom.css'],
+			components: {
+				ThemeSelect: './src/components/ThemeSelect.astro',
+			},
 			sidebar: [
 				{
 					label: 'Guides',
@@ -99,6 +102,7 @@ export default defineConfig({
 			plugins: [
 				starlightBlog({
 					title: 'Blog',
+					navigation: 'none',
 					authors: {
 						joe: {
 							name: 'Joe',

@@ -117,6 +117,21 @@ About     → About Jlab, Contact, Newsletter
 The original site's "Choose your Level" prompt and top-level navigation are
 expressed as this sidebar plus the landing-page cards.
 
+### Header links
+
+Two links are placed in the header, next to the theme switcher:
+
+- **Docs** → `/jlab_website/guides/beginners/` (the Beginner's Course, the main
+  entry point into the docs).
+- **Blog** → `/jlab_website/blog/`.
+
+The "Blog" link was originally auto-injected by the `starlight-blog` plugin via
+a Starlight `ThemeSelect` component override (its `navigation: 'header-end'`
+behavior). To add the sibling "Docs" link without conflicting with that
+override, `navigation` was set to `'none'` and both links are rendered manually
+in a custom `src/components/ThemeSelect.astro` override. The default Starlight
+theme switcher is preserved in the same component.
+
 ### Social links
 
 Only the social channels that actually exist on the original site are exposed:
@@ -163,6 +178,7 @@ Checklist:
    - hero action links in `src/content/docs/index.mdx`
    - in-content Markdown links in `src/content/docs/guides/*.md`,
      `decks/*.md`, `addon/*.md`, `reference/*.md`, and `blog/*.md`
+   - the "Docs" header link in `src/components/ThemeSelect.astro`
 4. Sidebar `link` values need **no** change (Starlight auto-prefixes them).
 5. Configure DNS + the GitHub Pages custom-domain setting (see README).
 

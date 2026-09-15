@@ -1,0 +1,27 @@
+---
+// Renders the "Docs" and "Blog" links in the header, alongside Starlight's
+// theme select.
+//
+// The starlight-blog plugin normally injects its own "Blog" header link via the
+// ThemeSelect override (navigation: 'header-end'). We set navigation to 'none'
+// and render both links ourselves here, so they sit side by side and we avoid
+// the plugin's override conflict warning.
+import Default from '@astrojs/starlight/components/ThemeSelect.astro';
+---
+
+<span class="sl-jlab-header-link"><a href="/jlab_website/guides/beginners/">Docs</a></span>
+<span class="sl-jlab-header-link"><a href="/jlab_website/blog/">Blog</a></span>
+<Default><slot /></Default>
+
+<style>
+	.sl-jlab-header-link a {
+		color: var(--sl-color-text-accent);
+		font-weight: 600;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+
+	.sl-jlab-header-link + .sl-jlab-header-link {
+		margin-inline-start: 1rem;
+	}
+</style>
