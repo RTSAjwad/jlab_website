@@ -19,7 +19,7 @@ together, they were counted:
 That's amazing — thanks to all of the deck creators! The image below shows the
 amount of cards per deck:
 
-![Card distribution across decks](/assets/CardDistribution.jpg)
+![Card distribution across decks](/jlab_website/assets/CardDistribution.jpg)
 
 > *Note: the notes were counted, but each note usually generates a single card.*
 

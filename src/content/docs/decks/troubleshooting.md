@@ -21,9 +21,11 @@ If changing the insertion order to "Sequential" didn't fix the random order, you
 can change the current card order in the card browser. Open the card browser and
 follow the steps illustrated below:
 
-![Card insertion order, step 1](/assets/Card-insertion-order-00.jpg)
+![Card insertion order, step 1](/jlab_website/assets/Card-insertion-order-00.jpg)
 
-![Card insertion order, step 2](/assets/Card-insertion-order-01.jpg)
+![Card insertion order, step 2](/jlab_website/assets/Card-insertion-order-01.jpg)
+
+![Wrong card order in the browser](/jlab_website/assets/Wrong-order.jpg)
 
 ## Deck was renamed or moved, 2nd deck appears
 
@@ -36,7 +38,7 @@ happens if you move the Jlab deck into a new parent deck to organize it.
 To fix this, move the cards around in the deck browser. **Afterwards, you need to
 update the card order (see "Wrong card order (fix 2)")!**
 
-![Renamed deck](/assets/Renamed-deck.jpg)
+![Renamed deck](/jlab_website/assets/Renamed-deck.jpg)
 
 ## Back of the card is empty
 
@@ -45,7 +47,7 @@ associated listening card. The cards are organized in two subdecks, which
 sometimes are not shown by default. If you click the parent deck on the topmost
 level, both card types are displayed. Try uncollapsing the deck:
 
-![Uncollapsing the deck](/assets/Uncollapse.jpg)
+![Uncollapsing the deck](/jlab_website/assets/Uncollapse.jpg)
 
 If this does not solve the problem, send an email using the contact form.
 
@@ -76,7 +78,7 @@ If you need help, [contact Joe](/jlab_website/contact/).
 You need to change the reading assistance level from latin to something else in
 **Japanese like a breeze → Settings**:
 
-![Reading assistance settings](/assets/Readingassistance.jpg)
+![Reading assistance settings](/jlab_website/assets/Readingassistance.jpg)
 
 Otherwise the settings from the kana trainer do not have any effect. Note that
 the addon updates cards on the fly, i.e. just before they are shown in the

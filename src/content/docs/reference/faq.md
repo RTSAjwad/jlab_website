@@ -103,6 +103,6 @@ still want to turn vocab cards into English → Japanese, you can exchange the
 front/back templates. If you want both Japanese → English and English → Japanese,
 add a second card type and exchange front/back templates on that type.
 
-![Switch front/back template](/assets/E-J-Cards.jpg)
+![Switch front/back template](/jlab_website/assets/E-J-Cards.jpg)
 
-![English → Japanese and Japanese → English cards](/assets/E-J-and-J-E-Cards.jpg)
+![English → Japanese and Japanese → English cards](/jlab_website/assets/E-J-and-J-E-Cards.jpg)

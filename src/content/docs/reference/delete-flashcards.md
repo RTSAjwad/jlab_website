@@ -59,7 +59,7 @@ interval of **~12-20 days** (kept for ~1 month in total). For beginners, keep
 them a bit longer. In Anki, the time since the last repetition roughly
 corresponds to what's on the "hard" button:
 
-![The hard button hint](/assets/Delete-hint-hard.jpg)
+![The hard button hint](/jlab_website/assets/Delete-hint-hard.jpg)
 
 Deleting cards is much more important than worrying about the settings.
 

@@ -9,7 +9,7 @@ desktop Anki).
 - [Summary on YouTube](https://www.youtube.com/watch?v=GHFcHfvgX5c)
 - [Addon on Ankiweb](https://ankiweb.net/shared/info/2110939339)
 
-![The addon's kana and kanji trainers](/assets/Trainers.gif)
+![The addon's kana and kanji trainers](/jlab_website/assets/Trainers.gif)
 
 ## Most important
 

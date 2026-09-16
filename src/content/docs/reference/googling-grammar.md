@@ -33,9 +33,9 @@ on HiNative.
 
 ### "Don't you know this egg?"
 
-<audio controls src="/assets/tamago.mp3">Your browser does not support the audio element.</audio>
+<audio controls src="/jlab_website/assets/tamago.mp3">Your browser does not support the audio element.</audio>
 
-![Egg scene](/assets/tamago.jpg)
+![Egg scene](/jlab_website/assets/tamago.jpg)
 
 > そこ の 巣 に あった 卵 を 知らぬ か
 > *(soko no su ni atta tamago wo shiranu ka — "Don't you know the egg in this nest?")*
@@ -55,9 +55,9 @@ uncommon verb negation not found in every textbook) was the source of confusion.
 
 ### "I have been forced to stop"
 
-<audio controls src="/assets/Ongaku.mp3">Your browser does not support the audio element.</audio>
+<audio controls src="/jlab_website/assets/Ongaku.mp3">Your browser does not support the audio element.</audio>
 
-![Music scene](/assets/Ongaku.jpg)
+![Music scene](/jlab_website/assets/Ongaku.jpg)
 
 > 私 は あなた に 音楽 辞めさせられた ん だ よ
 > *(watashi ha, anata ni ongaku yamesaserareta n da yo — "I've been forced to quit playing music by you")*
@@ -71,9 +71,9 @@ of yameru (to stop).
 
 ### "Don't come closer"
 
-<audio controls src="/assets/kuruna.mp3">Your browser does not support the audio element.</audio>
+<audio controls src="/jlab_website/assets/kuruna.mp3">Your browser does not support the audio element.</audio>
 
-![Don't come closer scene](/assets/kuruna2.jpg)
+![Don't come closer scene](/jlab_website/assets/kuruna2.jpg)
 
 > 来る な 殺される ぞ
 > *(kuru na korosareru zo — "don't come (closer), you'll be killed")*
@@ -86,9 +86,9 @@ solution in the first hit. Since we know "na" is related to a verb here, try
 
 ### "Get out of here"
 
-<audio controls src="/assets/takunakattara.mp3">Your browser does not support the audio element.</audio>
+<audio controls src="/jlab_website/assets/takunakattara.mp3">Your browser does not support the audio element.</audio>
 
-![Get out of here scene](/assets/takunakattara.jpg)
+![Get out of here scene](/jlab_website/assets/takunakattara.jpg)
 
 > 死にたくなかったら 早く ここ から 逃げ出しなさい
 > *(shinitakunakattara hayaku koko kara nigedashinasai — "if you don't want to die, get out of here quickly")*

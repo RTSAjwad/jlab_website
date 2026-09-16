@@ -28,13 +28,13 @@ templates for that. The following fields are available:
 Follow these steps on a Jlab card in AnkiDroid (edit the card template and
 replace the card front field as above).
 
-![AnkiDroid](/assets/Android-small.jpg)
+![AnkiDroid](/jlab_website/assets/Android-small.jpg)
 
 ### Desktop Anki
 
 On a Jlab card, press `e` and follow the same steps to edit the template.
 
-![Desktop Anki](/assets/PC.jpg)
+![Desktop Anki](/jlab_website/assets/PC.jpg)
 
 Another option is to make adjustments to the writing systems using desktop Anki
 with the addon and then syncing everything to your other devices, which don't

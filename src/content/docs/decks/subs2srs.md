@@ -17,4 +17,4 @@ is a list of decks used for mining that mostly work.
 **If you want to use the decks with the Jlab addon, you need to convert them
 first:**
 
-![Deck converter](/assets/Converter.jpg)
+![Deck converter](/jlab_website/assets/Converter.jpg)

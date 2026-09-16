@@ -160,11 +160,11 @@ Only the social channels that actually exist on the original site are exposed:
 #### `base` handling gotcha
 
 Starlight auto-prefixes **sidebar links** (the `sidebar` config) with `base`,
-but does **not** auto-prefix **hero action links** (frontmatter) or
-**in-content Markdown links**. Because of this inconsistency, those two kinds of
-links are manually prefixed with `/jlab_website/` in the source. When changing
-`base` (e.g. switching to a custom domain), those manual prefixes must be
-updated too.
+but does **not** auto-prefix **hero action links** (frontmatter), **in-content
+Markdown links**, or **in-content image/audio paths** (`![…](/assets/…)` and
+`<audio src="/assets/…">`). Because of this inconsistency, those paths are
+manually prefixed with `/jlab_website/` in the source. When changing `base`
+(e.g. switching to a custom domain), those manual prefixes must be updated too.
 
 ##### Switching to a custom domain (removing `/jlab_website/`)
 
@@ -178,6 +178,7 @@ Checklist:
    - hero action links in `src/content/docs/index.mdx`
    - in-content Markdown links in `src/content/docs/guides/*.md`,
      `decks/*.md`, `addon/*.md`, `reference/*.md`, and `blog/*.md`
+   - in-content image/audio paths (`/jlab_website/assets/…`) in those same files
    - the "Docs" header link in `src/components/ThemeSelect.astro`
 4. Sidebar `link` values need **no** change (Starlight auto-prefixes them).
 5. Configure DNS + the GitHub Pages custom-domain setting (see README).
@@ -185,8 +186,7 @@ Checklist:
 The manual prefixes can be located with:
 
 ```sh
-grep -rn ']\?(/jlab_website/' src/content/docs/ src/ || \
-  grep -rnE 'link: /jlab_website/' src/content/docs/index.mdx
+grep -rn '/jlab_website/' src/content/docs/ src/components/
 ```
 
 ---

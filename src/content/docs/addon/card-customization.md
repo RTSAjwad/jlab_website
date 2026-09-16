@@ -53,7 +53,7 @@ them:
 - **Jlab-ClozeFront**: Cloze card front content (per reading assistance)
 - **Jlab-ClozeBack**: Cloze card back content, including cloze hints in green
 
-![Available card fields in Anki](/assets/FieldsDesktop.jpg)
+![Available card fields in Anki](/jlab_website/assets/FieldsDesktop.jpg)
 
 ## Editing the template
 
@@ -65,11 +65,11 @@ bit awkward but works well after a few tries.
 
 - Remove image from front:
 
-  ![Removing the image from the card front](/assets/RemoveImage.jpg)
+  ![Removing the image from the card front](/jlab_website/assets/RemoveImage.jpg)
 
 - Add image to back:
 
-  ![Adding the image to the card back](/assets/AddToBack.jpg)
+  ![Adding the image to the card back](/jlab_website/assets/AddToBack.jpg)
 
 ## HTML
 
