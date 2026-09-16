@@ -1,11 +1,43 @@
 /* Custom styling for JLab (Japanese Like a Breeze). */
 
-/* Japanese-themed accent palette:
-   - Vermilion (朱色) as the primary accent — torii/lacquer "Japan red".
-   - Aizome indigo (藍) for "note" callouts and secondary accents. */
+/* ---------------------------------------------------------------------------
+   Typography
+   - Body:       Inter (falls back to the system stack).
+   - Headings:   Space Grotesk (falls back to Inter, then system).
+   - Mono/code:  Space Mono (falls back to the system mono stack).
+   Fonts are self-hosted via Fontsource (no runtime CDN / network dependency).
+--------------------------------------------------------------------------- */
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-600.css';
+@import '@fontsource/inter/latin-700.css';
+@import '@fontsource/space-grotesk/latin-500.css';
+@import '@fontsource/space-grotesk/latin-600.css';
+@import '@fontsource/space-grotesk/latin-700.css';
+@import '@fontsource/space-mono/latin-400.css';
+@import '@fontsource/space-mono/latin-700.css';
 
-/* Override the accent color scale (Starlight hardcodes these, so we replace
-   them directly rather than relying on a hue variable). */
+:root {
+	/* Body font — Inter, with the system stack as fallback. */
+	--sl-font: 'Inter', var(--sl-font-system);
+	/* Code font — Space Mono, with the system mono stack as fallback. */
+	--sl-font-mono: 'Space Mono', var(--sl-font-system-mono);
+}
+
+/* Headings — Space Grotesk, with Inter/system as fallback. */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Space Grotesk', var(--sl-font);
+}
+
+/* ---------------------------------------------------------------------------
+   Colors — Japanese-themed palette.
+   - Vermilion (朱色) primary accent; aizome indigo (藍) for "note" callouts.
+--------------------------------------------------------------------------- */
 :root {
 	/* Accent — vermilion (dark mode). */
 	--sl-color-accent-low: hsl(10, 54%, 20%);
