@@ -1,7 +1,31 @@
-/* Custom styles for JLab (Japanese Like a Breeze) */
+/* Custom styling for JLab (Japanese Like a Breeze). */
 
-/* Landing page hero styling */
+/* Japanese-themed accent palette:
+   - Vermilion (朱色) as the primary accent — torii/lacquer "Japan red".
+   - Aizome indigo (藍) for "note" callouts and secondary accents. */
+
+/* Override the accent color scale (Starlight hardcodes these, so we replace
+   them directly rather than relying on a hue variable). */
 :root {
-	--sl-hue-accent: 210;
-	--sl-hue-blue: 210;
+	/* Accent — vermilion (dark mode). */
+	--sl-color-accent-low: hsl(10, 54%, 20%);
+	--sl-color-accent: hsl(10, 100%, 58%);
+	--sl-color-accent-high: hsl(10, 100%, 85%);
+
+	/* "Note" callouts / secondary accent — aizome indigo (dark mode). */
+	--sl-color-blue-low: hsl(230, 54%, 20%);
+	--sl-color-blue: hsl(230, 100%, 60%);
+	--sl-color-blue-high: hsl(230, 100%, 87%);
+}
+
+:root[data-theme='light'] {
+	/* Accent — vermilion (light mode). */
+	--sl-color-accent-high: hsl(10, 80%, 30%);
+	--sl-color-accent: hsl(10, 90%, 45%);
+	--sl-color-accent-low: hsl(10, 88%, 90%);
+
+	/* "Note" callouts / secondary accent — aizome indigo (light mode). */
+	--sl-color-blue-high: hsl(230, 80%, 30%);
+	--sl-color-blue: hsl(230, 90%, 60%);
+	--sl-color-blue-low: hsl(230, 88%, 90%);
 }
