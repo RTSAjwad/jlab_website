@@ -50,6 +50,19 @@ h6 {
 	--sl-color-blue-high: hsl(230, 100%, 87%);
 }
 
+/* Dark-mode neutrals only — warm-tinted "sumi ink" (hue 20), so light mode
+   keeps Starlight's cool gray defaults unchanged. */
+:root:not([data-theme='light']) {
+	--sl-color-white: hsl(0, 0%, 100%);
+	--sl-color-gray-1: hsl(20, 20%, 94%);
+	--sl-color-gray-2: hsl(20, 6%, 77%);
+	--sl-color-gray-3: hsl(20, 6%, 56%);
+	--sl-color-gray-4: hsl(20, 7%, 36%);
+	--sl-color-gray-5: hsl(20, 10%, 23%);
+	--sl-color-gray-6: hsl(20, 14%, 16%);
+	--sl-color-black: hsl(20, 10%, 10%);
+}
+
 :root[data-theme='light'] {
 	/* Accent — vermilion (light mode). */
 	--sl-color-accent-high: hsl(10, 80%, 30%);
